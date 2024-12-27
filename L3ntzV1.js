@@ -10,7 +10,7 @@ let userIds = [];
 
 bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
-  const videonya = './lib/image/menux.gif';
+  const videonya = './image/menux.gif';
   const usernames = msg.from.username;
   const caption = `Hi Bray @${usernames}, Click /menu to learn more about how yo use this bot`;
 
@@ -34,7 +34,7 @@ bot.onText(/\/start/, async (msg) => {
 
 bot.onText(/\/menu/, async (msg) => {
   const chatId = msg.chat.id;
-  const video = './lib/image/lentz.mp4';
+  const video = './image/lentz.mp4';
   const usernames = msg.from.username;
   const caption = `╾────( INFO MENU )────╼
 
@@ -368,7 +368,7 @@ bot.onText(/\/infogc/, async (msg) => {
   }
 });
 
-const defaultProfilePicture = './lib/image/menux.gif';
+const defaultProfilePicture = './image/menux.gif';
 const welcomeMessage = 'Welcomr To My Grup Bro Semoga Betah yah🙏😁';
 const goodbyeMessage = 'selamat tinggal bro jangan balik lagi yak🗿😹';
 
